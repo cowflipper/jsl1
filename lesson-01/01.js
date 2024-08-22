@@ -10,4 +10,4 @@ i ++;
 }
 console.log(sum);
 
-// alert(sum)
+
