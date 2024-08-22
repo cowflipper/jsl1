@@ -8,4 +8,6 @@ while (i<= 20) {
 sum += i;
 i ++;
 }
-alert(sum)
+console.log(sum);
+
+// alert(sum)
