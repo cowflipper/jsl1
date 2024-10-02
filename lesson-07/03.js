@@ -13,6 +13,7 @@ function truncate(str, maxLength) {
   const word = str.split('');
   if(word.length > maxLength) {
   shortStr = word.slice(0, maxLength)
+  word.join('')
       return shortStr += "...";
   } else {
       return str
