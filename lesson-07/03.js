@@ -10,5 +10,11 @@
 */
 
 function truncate(str, maxLength) {
-  // your code
-}
+  const word = str.split('');
+  if(word.length > maxLength) {
+  shortStr = word.slice(0, maxLength)
+      return shortStr += "...";
+  } else {
+      return str
+  }
+} 
