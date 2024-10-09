@@ -85,5 +85,5 @@ petShop.addEventListener('click', function(event) {
 clearCartButton.addEventListener('click', function () {
   cart.length = 0;
   updateCartDisplay();
-  messageBox.textContent = ''; // 
+  messageBox.textContent = ''; 
 });
